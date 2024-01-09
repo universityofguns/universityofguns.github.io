@@ -1,0 +1,57 @@
+---
+// Script block for Astro component state and logic
+let isMenuOpen = false;
+
+function toggleMenu() {
+  isMenuOpen = !isMenuOpen;
+}
+---
+
+<div class="relative">
+  <!-- DropUp Button -->
+  <button id="dropUpButton" type="button" class="bg-transparent text-white-500 border border-white-500 hover:bg-transparent-500 hover:text-white p-2 rounded" @click={toggleMenu}>
+    © SERP
+  </button>
+
+  <!-- DropUp Menu -->
+  <div id="dropUp" class={`absolute bottom-full mb-2 right-0 bg-white shadow-lg rounded w-auto min-w-max ${isMenuOpen ? 'block' : 'hidden'}`}>
+    <!-- Dropdown Title (SERP BRANDS) -->
+    <span class="block px-4 py-2 text-sm text-gray-700 font-semibold">SERP BRANDS</span>
+
+    <!-- Dropdown Items -->
+    <a href="https://serp.co" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP</a>
+    <a href="https://serp.ai" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP AI</a>
+    <a href="https://serp.fm" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP FM</a>
+    <a href="https://serp.app" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP App</a>
+    <a href="https://serp.games" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Games</a>
+    <a href="https://serp.wiki" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Wiki</a>
+    <a href="https://serp.dev" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Dev</a>
+    <a href="https://serp.style" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Style</a>
+    <a href="https://serp.site" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Site</a>
+    <a href="https://serp.media" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Media</a>
+    <a href="https://serp.travel" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Travel</a>
+    <a href="https://serp.pet" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP Pets</a>
+    <a href="https://serpuniversity.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">SERP University</a>
+
+    <!-- Divider -->
+    <div class="border-t border-gray-200 my-2"></div>
+
+    <!-- Partner Brands Section -->
+    <span class="block px-4 py-2 text-sm text-gray-700 font-semibold">PARTNER BRANDS</span>
+    <a href="https://daft.fm" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">DAFT FM</a>
+    <a href="https://boxingundefeated.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">Boxing Undefeated</a>
+    <a href="https://devinschumacher.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">Devin Schumacher</a>
+    <a href="https://universityofguns.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">University of Guns</a>
+    <a href="https://www.petsmarketplc.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">Pets Marketplace</a>
+    <a href="https://merchantalternatives.com" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" target="_blank">Merchant Alternatives</a>
+  </div>
+</div>
+
+<script type="module">
+  const dropUpButton = document.getElementById('dropUpButton');
+  const dropUp = document.getElementById('dropUp');
+
+  dropUpButton.addEventListener('click', () => {
+    dropUp.classList.toggle('hidden');
+  });
+</script>
