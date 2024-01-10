@@ -15,4 +15,4 @@ The owner(s) of this website may be compensated to provide opinions on products,
 
 This website does not contain any content which might present a conflict of interest.
 
-Amazon Associates™ affiliate disclaimer: As an Amazon™ Associate, universityofguns.com and/or its related web properties, earn from qualifying purchases.
+Amazon Associates™ affiliate disclaimer: As an Amazon™ Associate, serp.games and/or its related web properties, earn from qualifying purchases.

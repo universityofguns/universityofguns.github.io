@@ -1,6 +1,6 @@
 site:
-  name: University of Guns
-  site: 'https://universityofguns.github.io'
+  name: SERP Games
+  site: 'https://serpgames.github.io'
   base: '/'
   trailingSlash: false
 
@@ -9,22 +9,22 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: University of Guns
-    template: '%s — University of Guns'
-  description: "\U0001F680 Learn Firearms."
+    default: SERP Games
+    template: '%s — SERP Games'
+  description: "\U0001F680 from \"Game ON\" to \"Game OVER\"."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: University of Guns
+    site_name: SERP Games
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@universityofguns'
-    site: '@universityofguns'
+    handle: '@serpdotgames'
+    site: '@serpdotgames'
     cardType: summary_large_image
 
 i18n:

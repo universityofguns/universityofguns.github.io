@@ -16,8 +16,8 @@ export async function GET(context) {
   }));
 
   return rss({
-    title: 'Boxing Undefeated | Post Feed',
-    description: 'Latest posts from Boxing Undefeated',
+    title: 'SERP Games | Post Feed',
+    description: 'Latest posts from SERP Games',
     site: context.site,
     items: feedItems,
   });

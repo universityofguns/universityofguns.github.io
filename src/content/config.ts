@@ -9,7 +9,7 @@ export async function GET(context) {
   
     // Generate the RSS feed
     return rss({
-        title: 'Boxing Undefeated',
+        title: 'SERP Games',
         description: 'All things boxing',
         site: context.site,
         items: blog.map((post) => ({
