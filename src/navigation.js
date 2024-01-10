@@ -32,7 +32,7 @@ export const headerData = {
       links: [
         {
           text: 'YouTube',
-          href: 'https://youtube.com/@serpgames',
+          href: 'https://serp.ly/@serpgames/youtube',
           target: '_blank',
         },
       ],
