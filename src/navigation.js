@@ -2,31 +2,6 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
   links: [
-    // {
-    //   text: 'Boxing',
-    //   links: [
-    //     {
-    //       text: 'Boxers',
-    //       href: getPermalink('/boxers'),
-    //     },
-    //     {
-    //       text: 'Divisions',
-    //       href: getPermalink('/weight-classes'),
-    //     },
-    //     {
-    //       text: 'Fights',
-    //       href: getPermalink('/fights'),
-    //     },
-    //     {
-    //       text: 'Schedule',
-    //       href: getPermalink('/schedule'),
-    //     },
-    //     {
-    //       text: 'Tickets',
-    //       href: getPermalink('/tickets'),
-    //     },
-    //   ],
-    // },
     {
       text: 'Videos',
       links: [
@@ -44,10 +19,6 @@ export const headerData = {
           text: 'Blog',
           href: getBlogPermalink(),
         },
-        // {
-        //   text: 'Glossary',
-        //   href: getPermalink('/glossary'),
-        // },
       ],
     },
    
