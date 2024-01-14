@@ -85,7 +85,7 @@ const getSite = () => {
     name: DEFAULT_SITE_NAME,
     site: 'serpgames.github.io',
     base: 'serpgames.github.io',
-    trailingSlash: false,
+    trailingSlash: true,
 
     googleSiteVerificationId: '',
   };
