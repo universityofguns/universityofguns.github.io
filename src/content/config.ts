@@ -9,8 +9,8 @@ export async function GET(context) {
   
     // Generate the RSS feed
     return rss({
-        title: 'SERP Games',
-        description: 'All things gaming',
+        title: 'University of Guns',
+        description: 'All things firearms',
         site: context.site,
         items: blog.map((post) => ({
             title: post.data.title,
@@ -19,7 +19,7 @@ export async function GET(context) {
             description: post.data.description,
             customData: post.data.customData,
             content: post.body, // Assuming you have the content of each post in post.body
-            link: `/posts/${post.slug}/` // Make sure the link structure matches your routing
+            link: `/{post.slug}/` // Make sure the link structure matches your routing
         })),
     });
 }

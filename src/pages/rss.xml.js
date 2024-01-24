@@ -16,8 +16,8 @@ export async function GET(context) {
   }));
 
   return rss({
-    title: 'SERP Games | Post Feed',
-    description: 'Latest posts from SERP Games',
+    title: 'University of Guns | Post Feed',
+    description: 'Latest posts from University of Guns',
     site: context.site,
     items: feedItems,
   });

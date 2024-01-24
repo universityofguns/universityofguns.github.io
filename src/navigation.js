@@ -7,7 +7,7 @@ export const headerData = {
       links: [
         {
           text: 'YouTube',
-          href: 'https://serp.ly/@serpgames/youtube',
+          href: 'https://serp.ly/@universityofguns/youtube',
           target: '_blank',
         },
       ],
@@ -18,26 +18,6 @@ export const headerData = {
         {
           text: 'Blog',
           href: getBlogPermalink(),
-        },
-        {
-          text: 'Gaming Chairs',
-          href: '/category/gaming-chairs/',
-        },
-        {
-          text: 'Gaming Mice',
-          href: '/category/gaming-mouse/',
-        },
-        {
-          text: 'Gaming Mouse Pads',
-          href: '/category/mouse-pads/',
-        },
-        {
-          text: 'Gaming Glasses',
-          href: '/category/gaming-glasses/',
-        },
-        {
-          text: 'Gaming Desks',
-          href: '/category/gaming-desks/',
         },
       ],
     },
@@ -51,7 +31,7 @@ export const footerData = {
     {
       title: 'Company',
       links: [
-        { text: 'Website', href: 'https://serp.games' },
+        { text: 'Website', href: 'https://universityofguns.com' },
         { text: 'About', href: '/about/' },
       ],
     },
@@ -65,12 +45,12 @@ export const footerData = {
     {
       title: 'Links',
       links: [
-        { text: 'Medium', href: 'https://medium.com/serpdotgames', target: '_blank' },
-        { text: 'Pages', href: 'https://serpgames.pages.dev', target: '_blank' },
-        { text: 'Github', href: 'https://serpgames.github.io', target: '_blank' },
-        // { text: 'Substack', href: 'https://serpgames.substack.com/', target: '_blank' },
-        // { text: 'Hashnode', href: 'https://serpgames.hashnode.dev/', target: '_blank' },
-        { text: 'Website', href: 'https://serp.games', target: '_blank' },
+        { text: 'Medium', href: 'https://medium.com/universityofguns', target: '_blank' },
+        { text: 'Pages', href: 'https://universityofguns.pages.dev', target: '_blank' },
+        { text: 'Github', href: 'https://universityofguns.github.io', target: '_blank' },
+        // { text: 'Substack', href: 'https://universityofguns.substack.com/', target: '_blank' },
+        // { text: 'Hashnode', href: 'https://universityofguns.hashnode.dev/', target: '_blank' },
+        { text: 'Website', href: 'https://universityofguns.com', target: '_blank' },
       ],
     },
     {
@@ -86,19 +66,15 @@ export const footerData = {
     },
   ],
   secondaryLinks: [
-    // { text: 'Free Stuff', href: 'https://stuff.serp.games' },
+    // { text: 'Free Stuff', href: 'https://stuff.universityofguns.com' },
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://serp.ly/@serpgames/twitter', target: '_blank' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://serp.ly/@serpgames/instagram', target: '_blank' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://serp.ly/@serpgames/facebook', target: '_blank' },
-    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://serp.ly/@serpgames/youtube', target: '_blank' },
-    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://serp.ly/@serpgames/linkedin', target: '_blank' },
-    { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: 'https://serp.ly/@serpgames/tiktok', target: '_blank' },
-    { ariaLabel: 'Medium', icon: 'tabler:brand-medium', href: 'https://serp.ly/@serpgames/medium', target: '_blank' },
+    { ariaLabel: 'X', icon: 'tabler:brand-x', href: 'https://serp.ly/@universityofguns/twitter', target: '_blank' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://serp.ly/@universityofguns/instagram', target: '_blank' },
+    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: 'https://serp.ly/@universityofguns/facebook', target: '_blank' },
+    { ariaLabel: 'YouTube', icon: 'tabler:brand-youtube', href: 'https://serp.ly/@universityofguns/youtube', target: '_blank' },
+    { ariaLabel: 'Linkedin', icon: 'tabler:brand-linkedin', href: 'https://serp.ly/@universityofguns/linkedin', target: '_blank' },
+    { ariaLabel: 'TikTok', icon: 'tabler:brand-tiktok', href: 'https://serp.ly/@universityofguns/tiktok', target: '_blank' },
+    { ariaLabel: 'Medium', icon: 'tabler:brand-medium', href: 'https://serp.ly/@universityofguns/medium', target: '_blank' },
   ],
-  // footNote: `
-  //   <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-  //   Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href=""> SERP</a> · All rights reserved.
-  // `,
 };

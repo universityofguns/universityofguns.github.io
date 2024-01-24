@@ -78,13 +78,13 @@ const config = yaml.load(fs.readFileSync('src/config.yaml', 'utf8')) as {
   analytics?: unknown;
 };
 
-const DEFAULT_SITE_NAME = 'SERP Games';
+const DEFAULT_SITE_NAME = 'University of Guns';
 
 const getSite = () => {
   const _default = {
     name: DEFAULT_SITE_NAME,
-    site: 'serpgames.github.io',
-    base: 'serpgames.github.io',
+    site: 'universityofguns.github.io',
+    base: 'universityofguns.github.io',
     trailingSlash: true,
 
     googleSiteVerificationId: '',
