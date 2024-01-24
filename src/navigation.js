@@ -39,7 +39,6 @@ export const footerData = {
       title: 'Community',
       links: [
         { text: 'Newsletter', href: '/subscribe/.' },
-        { text: 'Community', href: '/#' },
       ],
     },
     {
@@ -60,8 +59,8 @@ export const footerData = {
         { text: 'Terms & Conditions', href: '/terms/' },
         { text: 'Affiliate Disclosure', href: '/affiliate-disclosure/' },
         { text: 'DMCA', href: '/dmca/' },
-        { text: 'Archive', href: '/archive/' },
-        { text: 'Tags', href: '/tags/' },
+        // { text: 'Archive', href: '/archive/' },
+        // { text: 'Tags', href: '/tags/' },
       ],
     },
   ],
